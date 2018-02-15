@@ -11,7 +11,7 @@ include(CTest)
 
 option(NATS_UPDATE_VERSION "Update the version file" OFF)
 option(NATS_COVERAGE "Code coverage" OFF)
-option(NATS_BUILD_WITH_TLS "Build with TLS support" ON)
+option(NATS_BUILD_WITH_TLS "Build with TLS support" OFF)
 option(NATS_BUILD_WITH_TLS_CLIENT_METHOD "Use TLS_client_method()" OFF)
 option(NATS_BUILD_EXAMPLES "Build examples" ON)
 option(NATS_BUILD_LIBUV_EXAMPLE "Build libuv examples" OFF)
